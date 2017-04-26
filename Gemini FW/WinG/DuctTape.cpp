@@ -1,6 +1,6 @@
 #include "stdafx.h"
 
-#ifdef DEBUG
+#ifdef USE_DUCTTAPE
 #include <Gem/OS/DuctTape.h>
 
 #include "dbghelp.h"

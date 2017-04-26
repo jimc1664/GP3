@@ -3,7 +3,7 @@
 
 namespace Gem {		namespace DuctTape {
 
-#ifdef DEBUG
+#ifdef USE_DUCTTAPE
 
 #ifdef _WINDOWS_
 	void activateForModule( HMODULE mod = NULL );
@@ -21,7 +21,7 @@ namespace Gem {		namespace DuctTape {
 	void deactivateForModule( ptr mod = NULL ) {}
 	void printAll() {}
 	void shutdown() {}
-#endif //DEBUG
+#endif //USE_DUCTTAPE
 }	}
 
 
